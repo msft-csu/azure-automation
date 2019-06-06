@@ -27,12 +27,22 @@ The Azure Automation account name.
 (Optional) Storage Endpoint of Azure cloud
 
 .PARAMETER Source_Storage_Acct
+The Source Storage account to copy from
+
 .PARAMETER Source_Blob_Container
+The Source Storage container you will be copying
+
 .PARAMETER Source_Account_Key
+The Storage Account Key for the Source
 
 .PARAMETER Dest_Storage_Acct
+The Destination Storage account you will copy to
+
 .PARAMETER Dest_Blob_Container
+The Destination Blob container you will be copying to
+
 .PARAMETER Dest_Account_Key
+The Storage Account Key for the Destination
 
 #>
 
