@@ -1,11 +1,10 @@
 <#
     .DESCRIPTION
-        An example runbook which gets all the Classic VMs in a subscription using the Classic Run As Account (certificate)
-		and then outputs the VM name and status
+        An example runbook which copys files from one storage account to another
 
     .NOTES
-        AUTHOR: Azure Automation Team
-        LASTEDIT: 2016-6-1
+        AUTHOR: Brent McConnell
+        LASTEDIT: 2019-6-01
 #>
 
 <#
